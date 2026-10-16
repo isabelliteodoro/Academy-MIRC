@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 30px;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+h1 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 55px;
+    letter-spacing: 3px;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 30px;
+    text-shadow: 0 0 10px #d00101e8, 0 0 20px #ff0000;
+}
+
+h2 {
+    color: #ffffff;
+    margin-top: 0;
+    border-bottom: 2px solid #a71e34;
+    padding-bottom: 8px;
+}
+
+.box {
+    background-color: #1a1a1a;
+    padding: 25px;
+    border-radius: 8px;
+    margin-bottom: 25px;
+    border: 1px solid #333333;
+    box-shadow: 0 4px 10px rgba(255, 0, 0, 0.05);
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+    color: #dddddd;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 6px;
+    border: 1px solid #444444;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #2b2b2b;
+    color: #ffffff;
+}
+
+input:focus, select:focus, textarea:focus {
+    border-color: #ff0000;
+    outline: none;
+}
+
+.btn {
+    display: inline-block;
+    padding: 8px 15px;
+    background-color: #990e0e;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    transition: background 0.2s;
+}
+
+.btn:hover {
+    background-color: #ff0000;
+}
+
+.btn-edit {
+    background-color: #990e0e;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.btn-edit:hover {
+    background-color: #ff0000;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    background-color: #1a1a1a;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #333333;
+    text-align: left;
+    color: #ffffff;
+}
+
+th {
+    background-color: #990e0e;
+    color: #ffffff;
+}
+
+tr:nth-child(even) {
+    background-color: #242424;
+}
+
+tr:hover {
+    background-color: #333333;
+}
